@@ -65,5 +65,5 @@ On the home page, you'll see the list of added movies.
 ## Contribution
 Contributions are welcome! If you have any suggestions, improvements, or fixes, feel free to open an issue or submit a pull request to this repository.
 
-## Agradecimentos
+## Acknowledgements
 This project was developed using the Django framework. Thanks to the Django community for providing a robust set of tools for web development in Python.
