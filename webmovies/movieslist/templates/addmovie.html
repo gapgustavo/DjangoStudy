@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Movies List{% endblock %}
+
+{% block content %}
+<div class="offset-1 col-10 list-div">
+    <h1>Add a new movie:</h1>
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <div class="col-2 add-div">
+            <i class="fa-solid fa-plus"></i>
+            <input type="submit" class="btn btn-sucess" value="Add Movie">
+        </div>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,109 @@
+.container.fluid {
+    padding:0;
+}
+
+/* Navbar */
+
+.navbar {
+    border-bottom: 1px solid #333;
+    margin-bottom: 20px;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav a.nav-link {
+    color: #333;
+    letter-spacing: 1px;
+}
+
+/* Add Movie Button */
+
+#add-link {
+    text-decoration: none;
+}
+
+.add-div {
+    background-color: #3476e9;
+    cursor: pointer;
+    display: inline-block;
+    color: #FFF;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.fa-solid.fa-plus {
+    color: #FFF;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+/* Movies List */
+
+.list-div {
+    padding: 0;
+    border-bottom: 40px dashed #ccc;
+}
+
+.movies-list {
+    padding-left: 0;
+}
+
+.movies-item {
+    list-style: none;
+    font-size: 20px;
+    border-bottom: 3px dashed #ccc;
+}
+
+.fas.fa-trash, .fas.fa-edit {
+    cursor: pointer;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.fas.fa-trash {
+    color: #db1e47;
+
+}
+
+.fas.fa-edit {
+    color: #13c43f;
+}
+
+/* Footer */
+
+footer {
+    background-color: #333;
+    height: 300px;
+    border-top: 2px solid #202020;
+}
+
+footer p {
+    color: #f5f5f5;
+    text-align: center;
+    top: 50px;
+    position: relative;
+}
+
+/* Messages */
+
+ul.messages {
+    padding: 0;
+}
+
+ul.messages li {
+    list-style: none;
+}
+
+/* Add New Movie Button "/newmovie/" */
+
+.btn.btn-sucess {
+    color: #ffffff;
+    margin-right: 0px;
+    margin-left: 0px;
+}

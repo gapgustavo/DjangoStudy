@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block title %}Movies List{% endblock %}
+
+{% block content %}
+<div class="offset-1 col-10 list-div">
+    <h1>Movies List</h1>
+    <a id="add-link" href="newmovie/">
+        <div class="col-2 add-div">
+            <i class="fa-solid fa-plus"></i>Add Movie
+        </div>
+    </a>
+    {% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+            {% if messages %}
+            <li class="alert alert-danger">{{ message }}</li>
+            {% endif %}
+        {% endfor %}
+
+    </ul>
+    {% endif %}
+        <ul class="movies-list">
+            {% for each in movies %}
+            <li class="movies-item">
+                <span><a href="/{{each.id}}">{{each.name}}</a></span>
+                <span></span>
+                <span></span>
+                <a href="delete/{{each.id}}"><span><i class="fas fa-trash"></i></span></a>
+                <a href="edit/{{each.id}}"><span><i class="fas fa-edit"></i></span></a>
+                <span> </span>
+
+            </li>
+        </ul>
+    {% endfor %}
+
+</div>
+{% endblock %}
+
+
+<!-- {% for each in movies %}
+    <p>{{ each.rank }}<h2>{{ each.name }}</h2></p>
+    <p>{{ each.resume }}</p>
+
+    <br></br>
+{% endfor %} -->
