@@ -15,7 +15,6 @@ Before running this project, make sure you have the following requirements insta
 pip install requirements.txt
 ```
 
-
 ## Installation
 Follow the steps below to set up and run the project in your local environment:
 
@@ -39,6 +38,13 @@ python manage.py runserver
 http://localhost:8000/
 ```
 
+## Admin Access
+username: admin
+password: 123123
+
+```bash
+http://localhost:8000/admin
+```
 ## Usage
 After starting the development server and accessing the site, you'll have the following options:
 
