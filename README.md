@@ -4,6 +4,7 @@ This is a Django project for a website where you can create and manage a movie l
 
 ## Features
 - Add a movie to the list
+- Edit a movie from the list
 - Remove a movie from the list
 - View the list of movies
 
@@ -53,6 +54,10 @@ After starting the development server and accessing the site, you'll have the fo
 Click the "Add Movie" button on the home page.
 Enter the movie title and summary in the provided fields.
 Click "Add Movie" to add the movie to the list.
+
+#### Edit a movie:
+
+Click the pen icon next to the movie you want to edit.
 
 #### Remove a movie:
 
