@@ -7,6 +7,7 @@ This is a Django project for a website where you can create and manage a movie l
 - Edit a movie from the list
 - Remove a movie from the list
 - View the list of movies
+- View the movie summary
 
 ## Prerequisites
 
@@ -62,6 +63,10 @@ Click the pen icon next to the movie you want to edit.
 #### Remove a movie:
 
 Click the trash icon next to the movie you want to delete.
+
+#### View the summary of the movie:
+
+Click on the movie name on the homepage
 
 #### View the list of movies:
 
